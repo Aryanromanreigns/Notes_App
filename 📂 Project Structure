@@ -1,0 +1,22 @@
+notes_app/
+│
+├── android/                 # Android-specific files
+├── ios/                     # iOS-specific files
+├── web/                     # Web-specific files (if enabled)
+├── linux/                   # Linux-specific files (if enabled)
+├── macos/                   # macOS-specific files (if enabled)
+├── windows/                 # Windows-specific files (if enabled)
+│
+├── assets/                  # App resources
+│   ├── fonts/               # Custom fonts
+│   └── icons/               # App icons
+│
+├── lib/
+│   ├── main.dart            # App entry point
+│   │
+│   ├── models/              # Data models
+│   │   └── note.dart        # Note model (id, title, content, date, color, etc.)
+│   │
+│   ├── db/                  # Database helpers
+│   │   └── notes_database.dart  # SQLite database CRUD operations
+│
